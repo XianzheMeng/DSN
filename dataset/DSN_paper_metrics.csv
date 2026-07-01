@@ -1,0 +1,2 @@
+Model,Accuracy (%),Train Energy (J),Test Energy (J),Params (M),Train Time (s),Test Time (s)
+DSN (Paper),93.87,5.33,33.0,0.3,N/A,N/A
