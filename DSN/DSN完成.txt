@@ -1,0 +1,20 @@
+This manuscript proposes DSN, a hybrid neural-network framework that fuses untrained Spiking Neural Networks (SNN) with Hyper-dimensional Computing (HDC) for ultra-low-power EMG classification.
+It eliminates back-propagation by using random SNN weights for feature extraction and one-pass HDC encoding for classification, achieving 42× lower energy than GRU while maintaining >93% accuracy.
+The work provides formal robustness guarantees (Lipschitz bounds, noise resilience, bit-flip fault tolerance) and demonstrates theoretical and practical advantages for edge-deployable neural networks.
+
+By eliminating back-propagation and reducing energy 42-fold versus GRU while keeping >93% accuracy, DSN offers the first rigorously guaranteed, training-light neural-network solution for wearable EMG monitoring. This breakthrough lowers the deployment barrier for real-time, battery-powered edge healthcare devices and establishes a template for similarly efficient, robust neural networks in other mobile or implantable applications.
+
+Taherkhani, A., Belatreche, A., Li, Y., Cosma, G., Maguire, L. P., & McGinnity, T. M. (2020).
+A review of learning in biologically plausible spiking neural networks.
+Neural Networks, 122, 253-272.
+DOI: 10.1016/j.neunet.2019.09.005
+
+Tavanaei, A., Ghodrati, M., Kheradpisheh, S. R., Masquelier, T., & Maida, A. (2019).
+Deep learning in spiking neural networks.
+Neural Networks, 111, 47-63.
+DOI: 10.1016/j.neunet.2018.12.002
+
+Ceolini, E., Frenkel, C., Shrestha, S. B., Taverni, G., Khacef, L., Payvand, M., & Donati, E. (2020).
+Hand-gesture recognition based on EMG and event-based camera sensor fusion: A benchmark in neuromorphic computing.
+Frontiers in Neuroscience, 14, 637.
+DOI: 10.3389/fnins.2020.00637 [special issue on Neural Networks implementations]
